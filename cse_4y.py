@@ -278,7 +278,6 @@ def CSE2_2y(Subject_Name,Subject_Id):
 
 
 
-
 while True:
         schedule.run_pending()
         time.sleep(1)
