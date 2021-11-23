@@ -158,9 +158,9 @@ def CSE3_3y(Subject_Name,Subject_Id):
 def CSE1_4y(Subject_Name,Subject_Id):
     Subject(Subject_Name,Subject_Id,"CSE-1","Fourth Year")
 
-CSE1_4y("Data Compression","26863")
-CSE1_4y("Mobile Computing","26660")
-CSE1_4y("Cryptography","26793")
+#CSE1_4y("Data Compression","26863")
+#CSE1_4y("Mobile Computing","26660")
+#CSE1_4y("Cryptography","26793")
 
 schedule.every().monday.at("09:05").do(lambda:CSE1_4y("Data Compression","26863"))
 
