@@ -31,7 +31,6 @@ firebase=pyrebase.initialize_app(firebaseConfig)
 
 db=firebase.database()
 
-
 #driver=webdriver.Chrome()
 
 
