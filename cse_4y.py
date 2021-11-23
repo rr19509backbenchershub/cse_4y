@@ -168,7 +168,7 @@ schedule.every().monday.at("09:05").do(lambda:CSE1_4y("Data Compression","26863"
 schedule.every().tuesday.at("09:02").do(lambda:CSE1_4y("Data Compression","26863"))
 schedule.every().tuesday.at("09:52").do(lambda:CSE1_4y("Mobile Computing","26660"))
 schedule.every().tuesday.at("10:42").do(lambda:CSE1_4y("Mobile Computing","26660"))
-schedule.every().tuesday.at("11:32").do(lambda:CSE1_4y("Cryptography","26793"))
+schedule.every().tuesday.at("11:52").do(lambda:CSE1_4y("Cryptography","26793"))
 
 
 schedule.every().wednesday.at("10:42").do(lambda:CSE1_4y("Cryptography","26793"))
