@@ -189,7 +189,7 @@ schedule.every().friday.at("11:32").do(lambda:CSE1_4y("Cryptography","26793"))
 
 
 
-#---------------------------------------------------------------3 CSE-1 end-------------------------------------------------
+#---------------------------------------------------------------4 CSE-1 end-------------------------------------------------
 #---------------------------------------------------------------------------------------------------------------------------
 
 
@@ -197,13 +197,47 @@ schedule.every().friday.at("11:32").do(lambda:CSE1_4y("Cryptography","26793"))
 
 
 #--------------------------------------------------------------------------------------------------------------------------
-#--------------------------------------------------------------3 CSE-2 start-----------------------------------------------
+#--------------------------------------------------------------4 CSE-2 start-----------------------------------------------
 #--------------------------------------------------------------------------------------------------------------------------
 
+def CSE2_4y(Subject_Name,Subject_Id):
+    Subject(Subject_Name,Subject_Id,"CSE-2","Fourth Year")
 
-def CSE2_3y(Subject_Name,Subject_Id):
-    Subject(Subject_Name,Subject_Id,"CSE-2","Third Year")
-    
+CSE2_4y("Data Compression","26863")
+CSE2_4y("Mobile Computing","26660")
+CSE2_4y("Cryptography","26896")
+
+schedule.every().monday.at("09:05").do(lambda:CSE2_4y("Data Compression ","26863"))
+schedule.every().monday.at("10:42").do(lambda:CSE2_4y("Cryptography ","26896"))
+
+
+schedule.every().tuesday.at("09:02").do(lambda:CSE2_4y("Data Compression","26863"))
+schedule.every().tuesday.at("09:52").do(lambda:CSE2_4y("Mobile Computing","26660"))
+schedule.every().tuesday.at("10:42").do(lambda:CSE2_4y("Mobile Computing","26660"))
+
+
+
+schedule.every().wednesday.at("15:12").do(lambda:CSE2_4y("Computer Architecture ","26963"))
+
+
+
+schedule.every().thursday.at("09:05").do(lambda:CSE2_4y("Data Compression","26863"))
+schedule.every().thursday.at("10:42").do(lambda:CSE2_4y("Cryptography ","26896"))
+schedule.every().thursday.at("13:32").do(lambda:CSE2_4y("Mobile Computing","26660"))
+schedule.every().thursday.at("14:22").do(lambda:CSE2_4y("Mobile Computing","26660"))
+schedule.every().thursday.at("15:12").do(lambda:CSE2_4y("Computer Architecture ","26963"))
+
+
+
+schedule.every().friday.at("09:05").do(lambda:CSE2_4y("Data Compression","26863"))
+schedule.every().friday.at("09:52").do(lambda:CSE2_4y("Cryptography ","26896"))
+schedule.every().thursday.at("15:12").do(lambda:CSE2_4y("Computer Architecture ","26963"))
+
+
+schedule.every().saturday.at("10:42").do(lambda:CSE2_4y("Computer Architecture ","26963"))
+schedule.every().saturday.at("11:32").do(lambda:CSE2_4y("Cryptography","26793"))
+
+
 
 
 
