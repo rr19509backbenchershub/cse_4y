@@ -161,7 +161,7 @@ def CSE1_4y(Subject_Name,Subject_Id):
 #CSE1_4y("Data Compression","26863")
 #CSE1_4y("Mobile Computing","26660")
 #CSE1_4y("Cryptography","26793")
-CSE1_4y("Distributed System ","26761")
+#CSE1_4y("Distributed System ","26761")
 
 schedule.every().monday.at("09:05").do(lambda:CSE1_4y("Data Compression","26863"))
 schedule.every().monday.at("15:12").do(lambda:CSE1_4y("Distributed System ","26761"))
