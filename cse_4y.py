@@ -161,8 +161,10 @@ def CSE1_4y(Subject_Name,Subject_Id):
 #CSE1_4y("Data Compression","26863")
 #CSE1_4y("Mobile Computing","26660")
 #CSE1_4y("Cryptography","26793")
+CSE1_4y("Distributed System ","26761")
 
 schedule.every().monday.at("09:05").do(lambda:CSE1_4y("Data Compression","26863"))
+schedule.every().monday.at("15:12").do(lambda:CSE1_4y("Distributed System ","26761"))
 
 
 schedule.every().tuesday.at("09:02").do(lambda:CSE1_4y("Data Compression","26863"))
@@ -171,12 +173,14 @@ schedule.every().tuesday.at("10:42").do(lambda:CSE1_4y("Mobile Computing","26660
 schedule.every().tuesday.at("11:52").do(lambda:CSE1_4y("Cryptography","26793"))
 
 
+schedule.every().wednesday.at("09:52").do(lambda:CSE1_4y("Distributed System ","26761"))
 schedule.every().wednesday.at("10:42").do(lambda:CSE1_4y("Cryptography","26793"))
 
 
 
-schedule.every().thursday.at("09:05").do(lambda:CSE1_4y("Data Compression","26863"))
 
+schedule.every().thursday.at("09:05").do(lambda:CSE1_4y("Data Compression","26863"))
+schedule.every().thursday.at("10:42").do(lambda:CSE1_4y("Distributed System ","26761"))
 schedule.every().thursday.at("13:32").do(lambda:CSE1_4y("Mobile Computing","26660"))
 schedule.every().thursday.at("14:22").do(lambda:CSE1_4y("Mobile Computing","26660"))
 
@@ -185,6 +189,7 @@ schedule.every().thursday.at("14:22").do(lambda:CSE1_4y("Mobile Computing","2666
 schedule.every().friday.at("09:05").do(lambda:CSE1_4y("Data Compression","26863"))
 schedule.every().friday.at("10:42").do(lambda:CSE1_4y("Cryptography","26793"))
 schedule.every().friday.at("11:32").do(lambda:CSE1_4y("Cryptography","26793"))
+schedule.every().friday.at("09:52").do(lambda:CSE1_4y("Distributed System ","26761"))
 
 
 
